@@ -40,3 +40,18 @@
     display: block;
     margin: auto;
 }
+
+#result{
+    display: block;
+    text-align: center;
+}
+
+.resultDescTitle1{
+    font-size: x-large;
+    font-weight: 1000;
+}
+
+.resultDescTitle2{
+    font-size: x-large;
+    font-weight: 1000;
+}

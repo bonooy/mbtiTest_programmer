@@ -11,7 +11,7 @@
         <!-- 카카오 공유하기 -->
         <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
         <script>
-        Kakao.init('코드입력');
+        Kakao.init('735c27c5ca7a49608e7aa2a18f645106');
         Kakao.isInitialized();
         </script>
 </head>
@@ -93,8 +93,8 @@
             const shareTitle = '나의 개발자 유형은 무엇일까? 나의 개발자 유형을 확인해보고 공유해보자!!';
             const shareDes=infoList[resultAlt].name;
             
-            const shareImage= 'html주소 입력' + 'img/title_img.png';
-            const shareURL = 'html주소 입력';
+            const shareImage= 'https://mbtitestlikelion.netlify.app/' + 'img/title_img.png';
+            const shareURL = 'https://mbtitestlikelion.netlify.app/';
             Kakao.Link.sendDefault({
                 objectType: 'feed',
                 content: {
