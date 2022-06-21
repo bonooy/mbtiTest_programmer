@@ -41,7 +41,15 @@
     margin: auto;
 }
 
-#result{
+.jalan{
+    display: block;
+    text-align: center;
+}
+.resultIntro{
+    display: block;
+    text-align: center;
+}
+.resultName{
     display: block;
     text-align: center;
 }
@@ -49,9 +57,19 @@
 .resultDescTitle1{
     font-size: x-large;
     font-weight: 1000;
+    text-align: center;
+}
+.resultDesc1{
+    font-size: medium;
+    text-align: center;
 }
 
 .resultDescTitle2{
     font-size: x-large;
     font-weight: 1000;
+    text-align: center;
+}
+.resultDesc2{
+    font-size: medium;
+    text-align: center;
 }
