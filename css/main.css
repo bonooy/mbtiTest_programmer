@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(19.5%, 19.1%, 19.1%) ;
+}
+
+#main{
+    background-color: rgb(34.7%, 34.7%, 34.7%);
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.startBtn{
+    padding: 13px 50px;
+    border: 3px solid orange;
+    color: orange;
+    border-radius: 8px;
+}
+
+.startBtn:hover, .startBtn:active{
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.jalan{
+    color: orange;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+
+.Gmarket{
+    color:palegoldenrod;
+}
+
+
+.titleImg img{animation: move1 5s both linear infinite;}
+@keyframes move1 {
+    0%{transform: translateY(0px)translateX(0px);}
+    25%{transform: translateY(10px)translateX(0px);}
+    50%{transform: translateY(30px)translateX(0px);}
+    75%{transform: translateY(10px)translateX(0px);}
+    100%{transform: translateY(0px)translateX(0px);}
+    
+}
