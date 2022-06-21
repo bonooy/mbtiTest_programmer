@@ -55,21 +55,21 @@
 }
 
 .resultDescTitle1{
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: 1000;
     text-align: center;
 }
 .resultDesc1{
-    font-size: medium;
+    font-size: larger;
     text-align: center;
 }
 
 .resultDescTitle2{
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: 1000;
     text-align: center;
 }
 .resultDesc2{
-    font-size: medium;
+    font-size: larger;
     text-align: center;
 }
